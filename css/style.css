@@ -12,3 +12,23 @@ html, body{
 .navbar li a:hover{
     color: black !important;
 }
+.carousel-caption{
+    position: absolute;
+    top: 25%;
+}
+.carousel-caption h1, .carousel-caption h6{
+    text-shadow: 5px 5px 15px #000000;
+}
+@media(max-width:576px)
+{
+    .carousel-caption{
+        position: absolute;
+        top: 50%;
+    }
+    .carousel-caption h1{
+        font-size:150% ;
+    }
+    .carousel-caption h6{
+        font-size:100% ;
+    }
+}
