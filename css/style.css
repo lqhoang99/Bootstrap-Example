@@ -49,11 +49,19 @@ html, body{
     transition: all 0.3s;
 }
 .aboutus{
-    margin-top: 8rem;
+    margin: 8rem;
+}
+.sec-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 @media(max-width:576px)
 {
     .sec-text{
         padding-top: 2rem;
     }
+}
+#testimonials{
+    padding:5rem
 }
